@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa366
+#1a5c37
+#063dle
+*/
+
+
+/*Variaveis em CSS*/
+:root{
+    --cor0: #c5ebd6;
+    --cor1:#83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa366;
+    --cor4: #1a5c37;
+    --cor5: #063dle
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'idroif' ;
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.283);
+}
+
+.centro{
+    text-align: center;
+    margin:0;
+    padding-bottom: 10px;
+    font-family: "Bebas Neue", Arial, Helvetica, 
+}
+
+.recuo{
+    text-indent: 30px;
+}
+
+.fonte{
+    font-family: 'idroif';
+    color: #207043;
+    background-image: linear-gradient(to right, rgb(0, 255, 0, white));
+}
+
+h2{
+    margin-top: 10px;
+}
+
+body{
+
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2ee67d, #0c3c21);
+    background-attachment: relative;
+    color: white;
+
+}
+
+header>h1{
+    margin-bottom: 20px;
+}
+
+h3{
+    background-image: linear-gradient(to right, #2ee67e4a, white);
+}
+
+nav{
+    background-color: #146336;
+    padding: 3px; 
+    height: 20px;
+    margin-top: 5px;
+
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav>a:hover{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 320px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.485);
+}
+
+
+main>img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+
+.fotosajustes{
+    text-align: center;
+    width: 1030px;
+    height: 303px;
+    width: 100%;
+}
+
+#android{
+    height: 300px;
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.video{
+    text-align: center;
+    background-color: #0f5b30;
+    padding: 20px;
+    margin: 0;
+}
+
+
+#extra{
+    background-color: #2fa866;
+    padding: 1px;
+    padding-left: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+article{
+    background-color: #c5ebd6;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+}
+
+.inline{
+    display:inline-block;
+    margin-right: 200px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #0c3c21;
+    color: white;
+    padding: 5px;
+
+    
+}
+
+.simbolo-visto{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+
+}
+
+ul{
+    padding: 0px;
+}
+
+#agradecimentos{
+    text-align: center;
+    
+}
+
+a{
+    color: #207043;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #2ee67e4f;
+
+}
+
+abbr{
+    text-decoration: none;
+}
+
+abbr:hover{
+    background-color: #2ee67e4f;
+}
